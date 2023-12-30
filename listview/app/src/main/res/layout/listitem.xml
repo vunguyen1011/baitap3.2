@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/hinhcauthu"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+    </ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/hinhcauthu"
+        android:id="@+id/tencauthu"
+        android:text="tên cầu thủ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@id/tencauthu"
+        android:layout_toRightOf="@id/hinhcauthu"
+        android:text="tuổi"
+        android:id="@+id/tuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+</RelativeLayout>
